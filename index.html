@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advocate for Dog Adoption with Paws for a Cause</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="reset-webview.css" />
+  <link rel="shortcut icon" href="./img/favicon-192.png" type="image/x-icon">
+  <link rel="icon" href="img/favicon-192.png" />
+</head>
+
+<body id="top">
+  <nav class="navbar" aria-label="Main Navigation">
+    <button class="hamburger" id="hamburger-button" aria-label="Toggle navigation">
+      ☰
+    </button>
+    <ul class="navbar-container" id="navbar-container">
+      <li><a href="#" aria-label="Home">Home</a></li>
+      <li><a href="#about" aria-label="About Us">About</a></li>
+      <li><a href="#impact" aria-label="The Impact of Adoption">Impact</a></li>
+      <li><a href="#petition" aria-label="Petition">Petition</a></li>
+    </ul>
+    <div>
+      <button id="reduce-motion" aria-label="Reduce Motion">Reduce Motion</button>
+      <button id="theme-button" aria-label="Toggle Dark Mode">
+        <span id="theme-text"></span>
+        <span id="theme-icon">🌙</span>
+      </button>
+    </div>
+  </nav>
+
+  <header class="header-container">
+    <div class="header-item">
+      <img src="./img/logo.jpg" alt="Logo of Paws for a Cause" />
+    </div>
+    <div class="header-item">
+      <h1>Paws for a Cause</h1>
+      <p>Join us in making a world of difference, one dog at a time.</p>
+      <button class="button" onclick="location.href='#petition';">Get Involved</button>
+      <button class="button" onclick="location.href='#about';">Learn More</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section-primary revealable">
+      <h2>The Reality of Dog Overpopulation</h2>
+      <p>
+        Every year, countless dogs find themselves in shelters, abandoned and without a home. This heartbreaking
+        situation is fueled by unchecked breeding, lack of awareness about spaying and neutering, and irresponsible pet
+        ownership. Shelters become overwhelmed, straining resources and leaving many animals at risk.
+      </p>
+      <p>
+        Our mission is to shed light on dog overpopulation and overcrowded shelters. By raising awareness, we aim to
+        ignite compassion and drive change. Together, we can advocate for adoption, support responsible pet ownership,
+        and address the root causes of this issue.
+      </p>
+      <p>
+        Watch this video to learn more about the challenges faced by shelter dogs:
+      </p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6QJQgjDAPLk?si=9Fmb8X9YInZvCnMW"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section id="impact" class="section-secondary revealable">
+      <h2>Impact of Adoption</h2>
+      <p>
+        Adopting a dog isn't just about changing their world—it transforms yours too. Each adoption story is filled with
+        joy and redemption. Here are the key impacts:
+      </p>
+      <div class="help-cards-container revealable">
+        <div class="card">
+          <h3>Reducing Shelter Overcrowding</h3>
+          <p>
+            Every adoption creates space for another dog in need, easing the burden on overcrowded shelters.
+          </p>
+          <a href="https://www.humanesociety.org/resources/top-reasons-adopt-pet" target="_blank"
+            rel="noopener noreferrer">Learn more at The Humane Society</a>
+        </div>
+        <div class="card">
+          <h3>Curtailing the Breeding Cycle</h3>
+          <p>
+            Adoption says no to puppy mills and yes to compassion, breaking the cycle of irresponsible breeding.
+          </p>
+          <a href="https://pets.webmd.com/ss/slideshow-pets-improve-your-health" target="_blank"
+            rel="noopener noreferrer">Discover health benefits on WebMD</a>
+        </div>
+        <div class="card">
+          <h3>Encouraging Healthier Pet Populations</h3>
+          <p>
+            Adopted pets receive the care they deserve, contributing to overall healthier pet populations.
+          </p>
+          <a href="https://www.akc.org/expert-advice/training/benefits-of-training-your-dog/" target="_blank"
+            rel="noopener noreferrer">Read about training benefits at AKC</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="help" class="section-primary revealable">
+      <h2>Get Involved</h2>
+      <p>
+        Your support is crucial to our mission. Whether through fostering, volunteering, donations, or advocacy, there
+        are numerous ways to make a positive impact. Explore how you can join our community dedicated to giving every
+        dog a chance at happiness.
+      </p>
+      <div class="help-cards-container revealable">
+        <div class="card">
+          <img src="./img/adopt-dont-shop.jpg" alt="Adopt, Don't Shop" class="card-img" />
+          <h3>Adopt, Don't Shop</h3>
+          <p>
+            Choosing to adopt from a shelter or rescue group saves lives and makes room for more animals in need.
+          </p>
+          <a href="https://www.caninejournal.com/adopt-dont-shop/" target="_blank">Learn More</a>
+        </div>
+        <div class="card">
+          <img src="./img/volunteer.jpg" alt="Volunteer" class="card-img" />
+          <h3>Volunteer</h3>
+          <p>
+            Volunteers are the heart of our organization. Your time directly contributes to the welfare of animals in
+            our care.
+          </p>
+          <a href="https://www.lcanimal.org/index.php/campaigns/puppy-mills/adopt-dont-shop" target="_blank">Learn
+            More</a>
+        </div>
+        <div class="card">
+          <img src="./img/foster.jpg" alt="Foster a Pet" class="card-img" />
+          <h3>Foster a Pet</h3>
+          <p>
+            Provide a temporary home to pets in need while they wait for their forever homes. It's a rewarding way to
+            contribute to animal welfare.
+          </p>
+          <a href="https://humanesocietytampa.org/foster/" target="_blank">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="petition" class="section-primary revealable">
+      <h2>Sign Our Petition 📢</h2>
+      <div class="petition-container">
+        <div class="petition-para">
+          <p>
+            Imagine a world where no dog is abandoned, abused, or left to fend for itself. Where every pup finds a warm
+            bed, full bowl, and loving family to call their own. This vision can become reality, but we need your voice.
+            Sign our petition now to demand stronger laws punishing animal cruelty, increased funding for underfunded
+            shelters, and better systems connecting rescue dogs with caring owners. Your name carries weight - each
+            signature brings us one step closer to ending canine suffering and creating a compassionate society where
+            our four-legged friends are treated as family. Don't let another dog be left behind. Fight for the voiceless
+            by signing today.
+          </p>
+        </div>
+        <div class="signatures">
+          <div id="signature-list">
+            <p class="signature-item">🖊️ DJ from Brooklyn supports this.</p>
+            <p class="signature-item">🖊️ Amy from Queens supports this.</p>
+            <p class="signature-item">🖊️ Teresa from Harlem supports this.</p>
+            <p id="counter">🖊️ 3 people have signed this petition and support this cause.</p>
+          </div>
+        </div>
+      </div>
+      <form id="sign-petition" class="petition-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+        <label for="hometown">Hometown:</label>
+        <input type="text" id="hometown" name="hometown" placeholder="Your Hometown" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required />
+      </form>
+      <button type="button" id="sign-now-button">Sign Now</button>
+    </section>
+
+    <div id="thanks-modal" class="modal">
+      <div class="modal-content">
+        <div id="modal-text-container">
+          <p id="thanks-modal-content">Thank you for your support!</p>
+          <button id="close-modal-button" class="button-link close">Close</button>
+        </div>
+        <img id="imageId" src="https://www.aspca.org/sites/default/files/field/image/blog-og-image/thanks_you_fb_0.jpg"
+          alt="Celebratory Image" />
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 Join Paws for a Cause in making a difference.</p>
+    <p><a href="#top">Back to Top</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
